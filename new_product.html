@@ -1,0 +1,74 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <style rel="stylesheet">
+        .jumbotron{
+            text-align: center;
+            background-color: rgba(197,255,70,0.84);
+        }
+    </style>
+
+    <title>New Product</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="jumbotron">
+                <h1>Product Details</h1>
+                <p>Got Any New Stuff to Sell !!!!!!<br>Post It Here</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="well well-lg">
+            <div class="form-group">
+                <label>Product Name </label>
+                <input class="form-control" placeholder="Product Name">
+                <br>
+                <label>Product Category </label>
+                    <select class="form-control">
+                        <option>---select---</option>
+                        <option>Books</option>
+                        <option>Category 2</option>
+                        <option>Category 3</option>
+                        <option>Category 4</option>
+                        <option>Category 5</option>
+                    </select>
+                <br>
+                <label>Product Description</label>
+                <textarea class="form-control" rows="3" placeholder="Type or paste the product description here.Only Plain text is supported."></textarea>
+                <br>
+                <label>Salient Features</label>
+                <input class="form-control" placeholder="Enter Product Features separated by commas">
+                <br>
+                <label>Upload Photo</label>
+                <input type="file">
+                <br>
+                <label>Base Price</label>
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="fa fa-rupee"></i></span>
+                    <input type="text" class="form-control" placeholder="Bidding starts from">
+                </div>
+                <br>
+                <button type="submit" class="btn btn-warning btn-lg center-block">Submit</button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
