@@ -1,0 +1,206 @@
+body {
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+hr.star-light, hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after, hr.star-primary:after {
+    content: "\2605";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #FFA000;
+}
+
+hr.star-primary {
+    border-color: orange;
+}
+
+hr.star-primary:after {
+    color: orange;
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav, .navbar-fixed-top, .navbar-brand,.navbar-custom{
+    color: white;;
+    background: #2962FF;
+    font-weight: 700;
+    border: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-color: white;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+}
+.navbar-custom a:focus {
+    outline: none;
+}
+.navbar-custom .navbar-brand {
+    color: white;
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: #FFFF00;
+}
+.navbar-custom .navbar-nav {
+    letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {           /*change in color to be made here*/
+    color: rgba(236,37,41,0.97);
+}
+.navbar-custom .navbar-nav li a:hover {
+    color: black;
+    outline: none;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+    color: white;
+}
+.navbar-custom .navbar-nav li.active a {
+    color: white;
+    background:#FFEB3B;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+    color: white;
+    background: #18BC9C;
+}
+.navbar-custom .navbar-toggle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #FFEB3B;
+    color: white;
+    border-color: #18BC9C;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-custom.affix {
+    padding: 10px 0;
+}
+.navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+}
+
+
+#product .product-item .product-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#product * {
+    z-index: 2;
+}
+#product .product-item {
+    margin: 0 0 15px;
+    right: 0;
+}
+#product .product-item .product-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#product .product-item .product-link .caption {
+    background: rgba(22,243,35,0.83);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+}
+#product .product-item .product-link .caption:hover {
+    opacity:0.7;
+}
+#product .product-item .product-link .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: black;
+}
+#product .product-item .product-link .caption .caption-content i {
+    margin-top: -12px;
+}
+#product .product-item .product-link .caption .caption-content h3,
+#product .product-item .product-link .caption .caption-content h4 {
+    margin: 0;
+}
+#product * {
+    z-index: 2;
+}
+#product .product-item {
+    margin: 0 0 30px;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+header {
+    text-align: center;
+    background-color: #FFCA28;
+    color: black;
+}
+section .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#myCarousel{
+    width: 100%;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    display:none;
+}
+.carousel-inner{
+    width: 100%;
+}
